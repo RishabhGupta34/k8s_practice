@@ -1,4 +1,4 @@
-name: "rishabh_test"
+name: "rishabh"
 replicas: 1
 
 image: <+artifact.image>
