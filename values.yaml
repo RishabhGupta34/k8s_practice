@@ -1,4 +1,4 @@
-name: <+stage.variables.resourceNamePrefix>
+name: "rishabh_test"
 replicas: <+secrets.getValue("k8s_instance")>
 
 image: <+artifact.image>
