@@ -1,5 +1,5 @@
 name: <+stage.variables.resourceNamePrefix>
-replicas: 1
+replicas: <+secrets.getValue("k8s_instance")>
 
 image: <+artifact.image>
 dockercfg: <+artifact.imagePullSecret>
